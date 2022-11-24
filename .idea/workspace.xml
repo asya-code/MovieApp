@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fcc4df-ac72-40ef-bf1d-ac0baa0b5744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/model/MovieEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addMovie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/TitanicMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/TitanicMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/voteForTheBestMovie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/voteForTheBestMovie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
