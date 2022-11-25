@@ -1,13 +1,14 @@
 package com.javaunit3.springmvc.model;
 
 import org.hibernate.annotations.Entity;
-import org.hibernate.annotations.Generated;
 import org.hibernate.annotations.Table;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.List;
+
 
 @Entity
 @Table(name="movies")
@@ -26,6 +27,7 @@ public class MovieEntity {
 
     @Column(name="genre")
     private String genre;
+    private List<VoteEntity> votes;
 
     public String getMaturityRating() {
         return maturityRating;
@@ -57,5 +59,9 @@ public class MovieEntity {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public void addVote(VoteEntity newVote) {
+        this.votes.add(vote);
     }
 }

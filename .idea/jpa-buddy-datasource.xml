@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="bbe3e175-d2cf-4850-bdc0-78992ac1f07c" name="java-proj-3" url="jdbc:postgresql://ec2-3-227-68-43.compute-1.amazonaws.com/d10j5u7gu015ho" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
