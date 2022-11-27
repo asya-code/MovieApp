@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Collection;
 import java.util.List;
 
 
@@ -63,5 +64,16 @@ public class MovieEntity {
 
     public void addVote(VoteEntity newVote) {
         this.votes.add(vote);
+    }
+
+    public List<VoteEntity> getVotes()
+    {
+
+        return votes;
+    }
+
+    public void setVotes(List<VoteEntity> votes)
+    {
+        this.votes = votes;
     }
 }
